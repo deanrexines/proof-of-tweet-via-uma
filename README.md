@@ -5,8 +5,10 @@ Prove that a given Twitter user tweeted out a specific text within one of their 
 ## Deployment
 
 Update .env with your values
+```
 PRIVATE_KEY=YOUR_EOA_PK_WITHOUT_0x_PREFIX
 SEPOLIA_RPC_URL=https://sepolia.infura.io/v3/YOUR_INFURA_API_KEY
+```
 
 From root directory, to deploy TwitterVerifier contract:
 ```
