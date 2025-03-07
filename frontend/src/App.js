@@ -495,14 +495,10 @@ function App() {
               {assertionDetails && (
                 <>
                   <h4>UMA Assertion Details</h4>
-                  <p><strong>Settled in UMA:</strong> {assertionDetails.resolved ? 'Yes' : 'No'}</p>
-                  <p><strong>Validation Result:</strong> {assertionDetails.settlementResolution ? 'True' : 'False'}</p>
-                  <p><strong>Settlement Time:</strong> {assertionDetails.settlementTimestamp}</p>
                   <p><strong>Asserter:</strong> {assertionDetails.asserter}</p>
                   {assertionDetails.challenger !== "0x0000000000000000000000000000000000000000" && (
                     <p><strong>Challenger:</strong> {assertionDetails.challenger}</p>
                   )}
-                  <p><strong>Can Be Settled:</strong> {canSettle ? 'Yes' : 'No'}</p>
                 </>
               )}
             </div>
