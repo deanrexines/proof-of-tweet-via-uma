@@ -1,0 +1,176 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.App-header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.App-main {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.note {
+  background-color: #fff3cd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.connect-button, .submit-button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.action-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.connect-button:hover, .submit-button:hover, .action-button:hover {
+  background-color: #0051a2;
+}
+
+.connect-button:disabled, .submit-button:disabled, .action-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #d32f2f;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ffebee;
+  border-radius: 4px;
+}
+
+.result-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e8f5e9;
+  border-radius: 4px;
+}
+
+.status-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e3f2fd;
+  border-radius: 4px;
+}
+
+.tx-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.tx-link:hover {
+  text-decoration: underline;
+}
+
+.contract-balance {
+  background-color: #e6f7ff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.assertion-id {
+  word-break: break-all;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.App-footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
+
+hr {
+  margin: 30px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+hr {
+  margin: 30px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.action-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  min-width: 120px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
